@@ -64,6 +64,8 @@ public class SurveyActivity extends AppCompatActivity {
         etBirthDate = findViewById(R.id.et_birth_date);
         sGenre = findViewById(R.id.s_genre);
 
+        etBirthDate.setSelected(false);
+
         btnShowCalendar = findViewById(R.id.btn_show_birth_date);
         btnShowCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
