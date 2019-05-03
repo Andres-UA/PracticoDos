@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurveyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="Tu eres"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/s_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/genre_array"></Spinner>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tu fecha de nacimiento" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_birth_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:ems="10"
+                android:hint="dd/mm/yyyy"
+                android:inputType="date" />
+
+            <ImageButton
+                android:id="@+id/btn_show_birth_date"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/calendar_icon"
+                android:tint="#000" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="¿Cual es tu vengador favorito?"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rg_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/rb_spiderman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spiderman" />
+
+            <RadioButton
+                android:id="@+id/rb_ironman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ironman" />
+
+
+            <RadioButton
+                android:id="@+id/rb_capitan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capitán América" />
+
+            <RadioButton
+                android:id="@+id/rb_capitana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capitana Marvel" />
+
+            <RadioButton
+                android:id="@+id/rb_hulk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hulk" />
+
+            <RadioButton
+                android:id="@+id/rb_blackwidow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Viuda Negra" />
+
+            <RadioButton
+                android:id="@+id/rb_thor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thor" />
+
+            <RadioButton
+                android:id="@+id/rb_strange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor Strange" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Votar" />
+
+    </LinearLayout>
+
+</ScrollView>

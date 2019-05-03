@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Practico II</string>
+
+    <array name="genre_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </array>
+
+    <array name="groups_array">
+        <item>Todo el publico</item>
+        <item>Mujeres adultas</item>
+        <item>Hombres adultos</item>
+        <item>Mujeres adolescentes</item>
+        <item>Hombres adolescentes</item>
+        <item>Niños</item>
+    </array>
+
+</resources>

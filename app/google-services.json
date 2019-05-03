@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "216136371295",
+    "firebase_url": "https://practicoii.firebaseio.com",
+    "project_id": "practicoii",
+    "storage_bucket": "practicoii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216136371295:android:9225f235eaa041fc",
+        "android_client_info": {
+          "package_name": "com.andres.practicoii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216136371295-4ddstkl2ch05i8kb86rn40775a8n1kjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andres.practicoii",
+            "certificate_hash": "4826c3115ca595fb09bda15d267141be38245de8"
+          }
+        },
+        {
+          "client_id": "216136371295-scs3ij0d2vh8isuo4ke0ndegvfeqjb29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs6ij-ELferepBXQTB0FK_iClJliPmgjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216136371295-scs3ij0d2vh8isuo4ke0ndegvfeqjb29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
